@@ -30,13 +30,14 @@
         ---------------------
         useState : 브라우저에 데이터를 바로 변경할 수 있는 변수
         useEffect : mounted와 동일한 역할
-                    => 재호출 : useState => setXxx를 이용하면 재호출이 가능
+                  => 재호출 : useState=> setXxx를 이용하면 재호출이 가능
         useRef : 태그를 제어할때 사용 ref => this.$refs.ref명.focus()
-        useContext :
+        useContext : 공통으로 사용되는 데이터
+                   => 모든 컴포넌트에 props를 이용해서 전송
         useMemo : 최적화된 연산
-        useCallback :
-        useReduce :
-        useParams :
+        useCallback : 자동으로 많이 호출되는 함수 => 속도가 빠르다
+        useReduce : Redux 관련
+        useParams : router를 이용해서 데이터 전송
         ----------------------
 
  */
